@@ -31,16 +31,18 @@
             transform:translate(-50%, -50%);
             border:1px solid white;}
 
-        .white-triangle{
+        .triangle-right{
             width:0;
             height:0;
-            cursor:pointer;
+            border-top: 25px solid transparent;
+	        border-left: 50px solid white;
+	        border-bottom: 25px solid transparent;
         }
         .red-box:hover{background-color:black;}
     </style>
 <body>
     <div class="black-box"></div>
     <div class="red-box"></div>
-    <div class="white-triangle"></div>
+    <div class="triangle-right"></div>
 </body>
 </html>
