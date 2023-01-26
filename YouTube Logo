@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset utf="8">
+<meta-http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Logo</title>
+</head>
+
+    <style>
+
+        .black-box{
+            width:1400px;
+            height:700px;
+            background-color:black;
+        }
+
+        *{transition: all ease-in-out 1000ms;}
+        .red-box{background-color:red;
+            width:300px;
+            height:200px;
+            border-radius:65px;
+            position:absolute;
+            align-items: center;
+            justify-content:center;
+            cursor:pointer;
+            display:flex;
+            top:50%;
+            left:50%;
+            transform:translate(-50%, -50%);
+            border:1px solid white;}
+
+        .white-triangle{
+            width:0;
+            height:0;
+            cursor:pointer;
+        }
+        .red-box:hover{background-color:black;}
+    </style>
+<body>
+    <div class="black-box"></div>
+    <div class="red-box"></div>
+    <div class="white-triangle"></div>
+</body>
+</html>
